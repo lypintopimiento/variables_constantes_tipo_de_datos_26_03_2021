@@ -1,25 +1,38 @@
-// Variables y constantes
 
-let nombre;
-let apellido;
-const edad = 23;
-nombre = "Ludwing";
-apellido = "Pinto";
-console.log(nombre, apellido, edad);
+// Codigo en funcion
+function Saludar(p1){
+    console.log(`Hola ${p1}`);
+    return null;
+}
+
+Saludar("Miguel Angel");
+Saludar("Marly");
+Saludar("Orlando");
+Saludar("Fabian");
 
 
-// Tipos de datos
-let Nombre = `Ludwing Yesid Pinto Pimiento`; //String
-let Edad = 27; //number - intenger - int;
-let altura = 1.75; //Double - float
-let profesor = false; // Boleano
-let informacion = [Nombre, Edad, altura, profesor]; //Array
-console.log(informacion);
-// console.log(informacion[2]);
-let baso = {
-	material : "porcelan",
-	diametro :  80,
-	lleno : false
-}; // Object
-console.log(baso);
-// console.log(baso.diametro);
+// Codigo ens ecuencia
+let saludar;
+saludar = "Miguel Angel";
+console.warn(`Hola ${saludar}`);
+saludar = "Marly";
+console.warn(`Hola ${saludar}`);
+saludar = "Orlando";
+console.warn(`Hola ${saludar}`);
+saludar = "Fabian";
+console.warn(`Hola ${saludar}`);
+
+
+
+
+
+// debugger;
+// let nombre;
+// let edad;
+// nombre = prompt("Ingrese su nombre");
+// edad = parseInt(prompt("Ingrese su edad"));
+// console.log(nombre);
+// console.log(typeof(nombre));
+// console.log(edad);
+// console.log(typeof(edad));
+
