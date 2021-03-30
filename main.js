@@ -10,7 +10,7 @@ Saludar("Pinto");
 Saludar("Pimiento");
 
 
-// Codigo en secuencia
+// Codigo en secuencia.
 let saludar;
 saludar = "Ludwing Yesid";
 console.warn(`Hola ${saludar}`);
