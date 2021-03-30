@@ -1,26 +1,30 @@
-
 // Codigo en funcion
 function Saludar(p1){
     console.log(`Hola ${p1}`);
     return null;
 }
 
-Saludar("Miguel Angel");
-Saludar("Marly");
-Saludar("Orlando");
-Saludar("Fabian");
+Saludar("Ludwing");
+Saludar("Yesid");
+Saludar("Pinto");
+Saludar("Pimiento");
 
 
-// Codigo ens ecuencia
+// Codigo en secuencia
 let saludar;
-saludar = "Miguel Angel";
+saludar = "Ludwing Yesid";
 console.warn(`Hola ${saludar}`);
-saludar = "Marly";
+saludar = "Maria Camila";
 console.warn(`Hola ${saludar}`);
-saludar = "Orlando";
+saludar = "Celina Pimiento";
 console.warn(`Hola ${saludar}`);
-saludar = "Fabian";
+saludar = "Jaime Pinto";
 console.warn(`Hola ${saludar}`);
+
+
+
+
+
 
 
 
@@ -35,4 +39,3 @@ console.warn(`Hola ${saludar}`);
 // console.log(typeof(nombre));
 // console.log(edad);
 // console.log(typeof(edad));
-
